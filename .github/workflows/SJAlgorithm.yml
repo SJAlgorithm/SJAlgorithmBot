@@ -23,7 +23,7 @@ jobs:
         run: ls -al
         
       - name: Compile
-        run: javac src/main/java/SJAlgorithm.java
+        run: javac SJAlgorithm.java
         
       - name: Run
-        run: java src/main/java/SJAlgorithm.java
+        run: java SJAlgorithm.java
