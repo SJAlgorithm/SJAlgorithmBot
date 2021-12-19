@@ -27,4 +27,4 @@ jobs:
         run: javac SJAlgorithm.java
         
       - name: Run
-        run: java SJAlgorithm.java
+        run: java SJAlgorithm
