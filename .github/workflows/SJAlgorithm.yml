@@ -2,8 +2,9 @@ name: Auto Recommand
 
 on:
   schedule:
-  #Update Every Monday 00:00
-  - cron: "0 0 * * 1"
+#   #Update Every Monday 00:00
+#   - cron: "0 0 * * 1"
+    - cron: "* * * * *"
 
 jobs:
   build:
