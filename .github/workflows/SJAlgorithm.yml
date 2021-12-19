@@ -1,0 +1,29 @@
+name: Auto Recommand
+
+on:
+  schedule:
+  #Update Every Monday 00:00
+  - cron: "0 0 * * 1"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-java@v1
+        with:
+          java-version: '11.0.9'
+#       - name: Compile
+#         run: mvn -B package --file pom.xml
+        
+#       - name: Run Recommand System
+#         run: java -jar target/SJAlgorithm-1.0-SNAPSHOT.jar
+      - name: Show Directories
+        run: ls -al
+        
+      - name: Compile
+        run: javac src/main/java/SJAlgorithm.java
+        
+      - name: Run
+        run: java src/main/java/SJAlgorithm.java
