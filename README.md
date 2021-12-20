@@ -1,2 +1,2 @@
 # SJAlgorithmBot
-SJAlgorithmBot : Auto Recommand and Check System\nhello
+SJAlgorithmBot : Auto Recommand and Check System   
