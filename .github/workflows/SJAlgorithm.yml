@@ -16,17 +16,14 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-      - run: mvn --batch-mode --update-snapshots verify
-      - run: mkdir staging && cp target/*.jar staging
-      - uses: actions/upload-artifact@v2
-        with:
-          name: Package
-          path: staging
-#       - name: Compile
-#         run: mvn -B package --file pom.xml
+      - name: Compile
+        run: mvn -B package --file pom.xml
         
-#       - name: Run Recommand System
-#         run: java -jar target/SJAlgorithm-1.0-SNAPSHOT.jar
+      - name: Show Directories
+        run: ls -al
+        
+      - name: Run Recommand System
+        run: java -jar target/SJAlgorithm-1.0-SNAPSHOT.jar
         
 #       - name: Compile
 #         run: javac SJAlgorithm.java
