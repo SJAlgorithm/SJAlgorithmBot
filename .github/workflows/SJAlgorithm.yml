@@ -20,6 +20,9 @@ jobs:
       - name: Show Directories
         run: ls -al
         
+      - name: Move Directory
+        run: cd SJAlgorithmBot
+        
       - name: Packaging
         run: mvn package
         
