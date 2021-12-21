@@ -24,11 +24,5 @@ jobs:
         working-directory: ${{env.working-directory}}
         
       - name: Run Recommand System
-        run:  java -jar target/SJAlgorithm-1.0-SNAPSHOT.jar ${{secrets.SECRET_TOKEN}}
+        run:  java -jar target/SJAlgorithmBot-1.0-SNAPSHOT.jar ${{secrets.SECRET_TOKEN}}
         working-directory: ${{env.working-directory}}
-        
-#       - name: Compile
-#         run: javac SJAlgorithm.java
-        
-#       - name: Run
-#         run: java SJAlgorithm
