@@ -17,6 +17,9 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
+      - name: Show Directories
+        run: ls -al
+        
       - name: Compile
         run: mvn -B package --file pom.xml
         
