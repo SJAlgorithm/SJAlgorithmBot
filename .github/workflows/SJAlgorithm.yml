@@ -20,14 +20,17 @@ jobs:
       - name: Show Directories
         run: ls -al
         
-      - name: Compile
-        run: mvn -B package --file SJAlgorithm/pom.xml
+      - name: Clean Package
+        run: mvn clean
+        
+      - name: Packaging
+        run: mvn package
         
       - name: Show Directories
         run: ls -al
         
       - name: Run Recommand System
-        run: java -jar target/SJAlgorithm-1.0-SNAPSHOT.jar
+        run: java -jar target/SJAlgorithm-1.0-SNAPSHOT.jar ${{secrets.SECRET_TOKEN}}
         
 #       - name: Compile
 #         run: javac SJAlgorithm.java
