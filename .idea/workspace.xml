@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="38683584-3fe4-42fb-8804-f814fa2f0c37" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/SJAlgorithm.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/SJAlgorithm.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SJAlgorithmBot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SJAlgorithmBot/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639986090705</updated>
       <workItem from="1639986092160" duration="33000" />
-      <workItem from="1640077589651" duration="927000" />
+      <workItem from="1640077589651" duration="1231000" />
     </task>
     <servers />
   </component>
