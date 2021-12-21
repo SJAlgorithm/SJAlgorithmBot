@@ -10,7 +10,8 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+    env:
+      working-directory: ./SJAlgorithm
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-java@v2
@@ -19,14 +20,10 @@ jobs:
           distribution: 'adopt'
         
       - name: Packaging
-        run:|
-            cd SJAlgorithm\
-            mvn package
+        run:  mvn package
         
       - name: Run Recommand System
-        run:|
-            cd SJAlgorithm\
-            java -jar target/SJAlgorithm-1.0-SNAPSHOT.jar ${{secrets.SECRET_TOKEN}}
+        run:  java -jar target/SJAlgorithm-1.0-SNAPSHOT.jar ${{secrets.SECRET_TOKEN}}
         
 #       - name: Compile
 #         run: javac SJAlgorithm.java
