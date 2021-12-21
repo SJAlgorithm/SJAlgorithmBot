@@ -21,7 +21,7 @@ jobs:
         run: ls -al
         
       - name: Compile
-        run: mvn -B package --file pom.xml
+        run: mvn -B package --file SJAlgorithm/pom.xml
         
       - name: Show Directories
         run: ls -al
