@@ -1,3 +1,5 @@
 public class Constants {
-    public Constants(){}
+    public Constants(){
+        System.out.println("test push");
+    }
 }
