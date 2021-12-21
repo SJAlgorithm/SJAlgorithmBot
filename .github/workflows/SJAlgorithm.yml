@@ -20,9 +20,6 @@ jobs:
       - name: Show Directories
         run: ls -al
         
-      - name: Clean Package
-        run: mvn clean
-        
       - name: Packaging
         run: mvn package
         
