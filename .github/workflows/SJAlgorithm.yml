@@ -18,7 +18,10 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-        
+
+      - name: ls -al
+        run: ls -al
+
       - name: Packaging
         run:  mvn package
         
