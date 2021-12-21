@@ -23,6 +23,9 @@ jobs:
         run: ls -al
         working-directory: ${{env.working-directory}}
 
+      - name: Check Linux JDK Version
+        run: mvn -verison
+
       - name: Packaging
         run:  mvn package
         working-directory: ${{env.working-directory}}
