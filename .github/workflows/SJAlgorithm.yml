@@ -17,23 +17,16 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-      - name: Show Directories
-        run: ls -al
-        
-      - name: Move Directory
-        run: cd SJAlgorithmBot
-
-      - name: Show Directories
-        run: ls -al
         
       - name: Packaging
-        run: mvn package
-        
-      - name: Show Directories
-        run: ls -al
+        run:|
+            cd SJAlgorithm\
+            mvn package
         
       - name: Run Recommand System
-        run: java -jar target/SJAlgorithm-1.0-SNAPSHOT.jar ${{secrets.SECRET_TOKEN}}
+        run:|
+            cd SJAlgorithm
+            java -jar target/SJAlgorithm-1.0-SNAPSHOT.jar ${{secrets.SECRET_TOKEN}}
         
 #       - name: Compile
 #         run: javac SJAlgorithm.java
