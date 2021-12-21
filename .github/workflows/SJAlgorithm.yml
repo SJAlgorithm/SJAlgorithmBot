@@ -25,7 +25,7 @@ jobs:
         
       - name: Run Recommand System
         run:|
-            cd SJAlgorithm
+            cd SJAlgorithm\
             java -jar target/SJAlgorithm-1.0-SNAPSHOT.jar ${{secrets.SECRET_TOKEN}}
         
 #       - name: Compile
