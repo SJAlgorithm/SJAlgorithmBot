@@ -1,5 +1,14 @@
 # SJAlgorithmBot
-SJAlgorithmBot : Auto Recommand and Check System   *****************************************************************************
+SJAlgorithmBot : Auto Recommand and Check System   
+*****************************************************************************
+
+### 2021/12/24~2021/12/30
+* A : [BOJ](https://www.acmicpc.net/problem/2852) **NBA 농구**
+* B : [BOJ](https://www.acmicpc.net/problem/16194) **카드 구매하기 2**
+* C : [BOJ](https://www.acmicpc.net/problem/14247) **나무 자르기**
+* D : [BOJ](https://www.acmicpc.net/problem/2233) **사과나무**
+
+*****************************************************************************
 
 ### 2021/12/24~2021/12/30
 * A : [BOJ](https://www.acmicpc.net/problem/2800) **괄호 제거**
