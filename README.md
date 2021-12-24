@@ -5,5 +5,3 @@ SJAlgorithmBot : Auto Recommand and Check System
 * A : [BOJ_46](https://www.acmicpc.net/problem/46) **Name**
 * A : [BOJ_17](https://www.acmicpc.net/problem/17) **Name**
 * A : [BOJ_77](https://www.acmicpc.net/problem/77) **Name**
-ㄻㅇㄻㄴㅇ
-***********************************************************************
