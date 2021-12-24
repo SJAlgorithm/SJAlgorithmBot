@@ -2,6 +2,14 @@
 *****************************************************************************
 
 ### 2021/12/24~2021/12/30
+* A : [BOJ](https://www.acmicpc.net/problem/14938) **서강그라운드**
+* B : [BOJ](https://www.acmicpc.net/problem/20117) **호반우 상인의 이상한 품질 계산법**
+* C : [BOJ](https://www.acmicpc.net/problem/12871) **무한 문자열**
+* D : [BOJ](https://www.acmicpc.net/problem/14929) **귀찮아 (SIB)**
+
+*****************************************************************************
+
+### 2021/12/24~2021/12/30
 * A : [BOJ](https://www.acmicpc.net/problem/2151) **거울 설치**
 * B : [BOJ](https://www.acmicpc.net/problem/20366) **같이 눈사람 만들래?**
 * C : [BOJ](https://www.acmicpc.net/problem/2877) **4와 7**
