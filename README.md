@@ -2,6 +2,14 @@
 *****************************************************************************
 
 ### 2021/12/24~2021/12/30
+* A : [BOJ](https://www.acmicpc.net/problem/2151) **거울 설치**
+* B : [BOJ](https://www.acmicpc.net/problem/20366) **같이 눈사람 만들래?**
+* C : [BOJ](https://www.acmicpc.net/problem/2877) **4와 7**
+* D : [BOJ](https://www.acmicpc.net/problem/11509) **풍선 맞추기**
+
+*****************************************************************************
+
+### 2021/12/24~2021/12/30
 * A : [BOJ](https://www.acmicpc.net/problem/4095) **최대 정사각형**
 * B : [BOJ](https://www.acmicpc.net/problem/1744) **수 묶기**
 * C : [BOJ](https://www.acmicpc.net/problem/2812) **크게 만들기**
