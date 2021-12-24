@@ -29,13 +29,6 @@
 <!--        </plugins>-->
 <!--    </build>-->
     <dependencies>
-<!--        &lt;!&ndash;기본 org.json&ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>org.json</groupId>-->
-<!--            <artifactId>json</artifactId>-->
-<!--            <version>20211205</version>-->
-<!--        </dependency>-->
-        <!--구글 json 라이브러리-->
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
