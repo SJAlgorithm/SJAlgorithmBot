@@ -2,6 +2,14 @@
 *****************************************************************************
 
 ### 2021/12/25~2021/12/31
+* A : [BOJ](https://www.acmicpc.net/problem/4358) **생태학**
+* B : [BOJ](https://www.acmicpc.net/problem/6603) **로또**
+* C : [BOJ](https://www.acmicpc.net/problem/19532) **수학은 비대면강의입니다**
+* D : [BOJ](https://www.acmicpc.net/problem/16971) **배열 B의 값**
+
+*****************************************************************************
+
+### 2021/12/25~2021/12/31
 * A : [BOJ](https://www.acmicpc.net/problem/2745) **진법 변환**
 * B : [BOJ](https://www.acmicpc.net/problem/19641) **중첩 집합 모델**
 * C : [BOJ](https://www.acmicpc.net/problem/19236) **청소년 상어**
