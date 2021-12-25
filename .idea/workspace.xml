@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38683584-3fe4-42fb-8804-f814fa2f0c37" name="Changes" comment="">
+    <list default="true" id="38683584-3fe4-42fb-8804-f814fa2f0c37" name="Changes" comment="Github Action Schedule update/Update On Every Sunday 00:00">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/SJAlgorithm.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/SJAlgorithm.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SJAlgorithmBot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SJAlgorithmBot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SJAlgorithmBot/src/main/java/Constants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SJAlgorithmBot/src/main/java/GitAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/SJAlgorithmBot/src/main/java/GitAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SJAlgorithmBot/target/SJAlgorithmBot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SJAlgorithmBot/target/SJAlgorithmBot-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SJAlgorithmBot/target/classes/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SJAlgorithmBot/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SJAlgorithmBot/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SJAlgorithmBot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SJAlgorithmBot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SJAlgorithmBot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SJAlgorithmBot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SJAlgorithmBot/src/main/java/SJAlgorithmBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/SJAlgorithmBot/src/main/java/SJAlgorithmBot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SJAlgorithmBot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -43,10 +37,16 @@
       <workItem from="1639986092160" duration="33000" />
       <workItem from="1640077589651" duration="1560000" />
       <workItem from="1640336848841" duration="23000" />
+      <workItem from="1640424616282" duration="184000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Github Action Schedule update&#10;Update On Every Sunday 00:00" />
+    <MESSAGE value="Github Action Schedule update/Update On Every Sunday 00:00" />
+    <option name="LAST_COMMIT_MESSAGE" value="Github Action Schedule update/Update On Every Sunday 00:00" />
   </component>
 </project>

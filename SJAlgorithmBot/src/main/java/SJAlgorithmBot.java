@@ -92,7 +92,7 @@ public class SJAlgorithmBot {
         //API를 이용해서 SJAlgorithm의 README.md 읽어옴
         Map<String,String> h=new HashMap<>();
         h.put("Authorization","token "+token);
-        JSONObject myReadmeJson=API.callAPI(sjBotUrl,"GET",h,null);
+        JSONObject myReadmeJson=API.callAPI(sjUrl,"GET",h,null);
         String contents=TextConversion.base64ToUtf8((String)myReadmeJson.get("content"));
         String newContents=getNewContents(contents,4);
 
@@ -106,6 +106,6 @@ public class SJAlgorithmBot {
         body.put("content",TextConversion.utf8ToBase64(newContents));
         body.put("owner","SJAlgorithm");
 
-        JSONObject updateResponse=API.callAPI(sjBotUrl,"PUT",header,body);
+        JSONObject updateResponse=API.callAPI(sjUrl,"PUT",header,body);
     }
 }
