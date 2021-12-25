@@ -2,6 +2,14 @@
 *****************************************************************************
 
 ### 2021/12/25~2021/12/31
+* A : [BOJ](https://www.acmicpc.net/problem/2745) **진법 변환**
+* B : [BOJ](https://www.acmicpc.net/problem/19641) **중첩 집합 모델**
+* C : [BOJ](https://www.acmicpc.net/problem/19236) **청소년 상어**
+* D : [BOJ](https://www.acmicpc.net/problem/20542) **받아쓰기**
+
+*****************************************************************************
+
+### 2021/12/25~2021/12/31
 * A : [BOJ](https://www.acmicpc.net/problem/18353) **병사 배치하기**
 * B : [BOJ](https://www.acmicpc.net/problem/18429) **근손실**
 * C : [BOJ](https://www.acmicpc.net/problem/15665) **N과 M (11)**
