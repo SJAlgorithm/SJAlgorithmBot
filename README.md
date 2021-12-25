@@ -2,6 +2,14 @@
 *****************************************************************************
 
 ### 2021/12/25~2021/12/31
+* A : [BOJ](https://www.acmicpc.net/problem/11256) **사탕**
+* B : [BOJ](https://www.acmicpc.net/problem/5052) **전화번호 목록**
+* C : [BOJ](https://www.acmicpc.net/problem/1359) **복권**
+* D : [BOJ](https://www.acmicpc.net/problem/13905) **세부**
+
+*****************************************************************************
+
+### 2021/12/25~2021/12/31
 * A : [BOJ](https://www.acmicpc.net/problem/15489) **파스칼 삼각형**
 * B : [BOJ](https://www.acmicpc.net/problem/1439) **뒤집기**
 * C : [BOJ](https://www.acmicpc.net/problem/16195) **1, 2, 3 더하기 9**
