@@ -2,6 +2,14 @@
 *****************************************************************************
 
 ### 2021/12/25~2021/12/31
+* A : [BOJ](https://www.acmicpc.net/problem/18353) **병사 배치하기**
+* B : [BOJ](https://www.acmicpc.net/problem/18429) **근손실**
+* C : [BOJ](https://www.acmicpc.net/problem/15665) **N과 M (11)**
+* D : [BOJ](https://www.acmicpc.net/problem/17836) **공주님을 구해라!**
+
+*****************************************************************************
+
+### 2021/12/25~2021/12/31
 * A : [BOJ](https://www.acmicpc.net/problem/10828) **스택**
 * B : [BOJ](https://www.acmicpc.net/problem/17451) **평행 우주**
 * C : [BOJ](https://www.acmicpc.net/problem/20207) **달력**
