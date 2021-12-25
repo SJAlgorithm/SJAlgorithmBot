@@ -2,6 +2,14 @@
 *****************************************************************************
 
 ### 2021/12/25~2021/12/31
+* A : [BOJ](https://www.acmicpc.net/problem/13460) **구슬 탈출 2**
+* B : [BOJ](https://www.acmicpc.net/problem/1325) **효율적인 해킹**
+* C : [BOJ](https://www.acmicpc.net/problem/2212) **센서**
+* D : [BOJ](https://www.acmicpc.net/problem/9370) **미확인 도착지**
+
+*****************************************************************************
+
+### 2021/12/25~2021/12/31
 * A : [BOJ](https://www.acmicpc.net/problem/16202) **MST 게임**
 * B : [BOJ](https://www.acmicpc.net/problem/16954) **움직이는 미로 탈출**
 * C : [BOJ](https://www.acmicpc.net/problem/20667) **크롬**
