@@ -2,6 +2,14 @@
 *****************************************************************************
 
 ### 2021/12/25~2021/12/31
+* A : [BOJ](https://www.acmicpc.net/problem/10828) **스택**
+* B : [BOJ](https://www.acmicpc.net/problem/17451) **평행 우주**
+* C : [BOJ](https://www.acmicpc.net/problem/20207) **달력**
+* D : [BOJ](https://www.acmicpc.net/problem/3085) **사탕 게임**
+
+*****************************************************************************
+
+### 2021/12/25~2021/12/31
 * A : [BOJ](https://www.acmicpc.net/problem/13460) **구슬 탈출 2**
 * B : [BOJ](https://www.acmicpc.net/problem/1325) **효율적인 해킹**
 * C : [BOJ](https://www.acmicpc.net/problem/2212) **센서**
