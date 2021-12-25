@@ -2,6 +2,14 @@
 *****************************************************************************
 
 ### 2021/12/25~2021/12/31
+* A : [BOJ](https://www.acmicpc.net/problem/15489) **파스칼 삼각형**
+* B : [BOJ](https://www.acmicpc.net/problem/1439) **뒤집기**
+* C : [BOJ](https://www.acmicpc.net/problem/16195) **1, 2, 3 더하기 9**
+* D : [BOJ](https://www.acmicpc.net/problem/17406) **배열 돌리기 4**
+
+*****************************************************************************
+
+### 2021/12/25~2021/12/31
 * A : [BOJ](https://www.acmicpc.net/problem/9084) **동전**
 * B : [BOJ](https://www.acmicpc.net/problem/10819) **차이를 최대로**
 * C : [BOJ](https://www.acmicpc.net/problem/3343) **장미**
