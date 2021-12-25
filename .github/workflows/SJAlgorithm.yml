@@ -18,6 +18,9 @@ jobs:
         with:
           java-version: '17'
           distribution: 'adopt'
+      - name: Package Clean
+        run: mvn clean
+        working-directory: ${{env.working-directory}}
 
       - name: Packaging
         run:  mvn package
