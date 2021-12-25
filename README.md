@@ -2,6 +2,14 @@
 *****************************************************************************
 
 ### 2021/12/25~2021/12/31
+* A : [BOJ](https://www.acmicpc.net/problem/1527) **금민수의 개수**
+* B : [BOJ](https://www.acmicpc.net/problem/1758) **알바생 강호**
+* C : [BOJ](https://www.acmicpc.net/problem/2309) **일곱 난쟁이**
+* D : [BOJ](https://www.acmicpc.net/problem/2852) **NBA 농구**
+
+*****************************************************************************
+
+### 2021/12/25~2021/12/31
 * A : [BOJ](https://www.acmicpc.net/problem/5430) **AC**
 * B : [BOJ](https://www.acmicpc.net/problem/2118) **두 개의 탑**
 * C : [BOJ](https://www.acmicpc.net/problem/1895) **필터**
