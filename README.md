@@ -2,6 +2,14 @@
 *****************************************************************************
 
 ### 2021/12/25~2021/12/31
+* A : [BOJ](https://www.acmicpc.net/problem/16202) **MST 게임**
+* B : [BOJ](https://www.acmicpc.net/problem/16954) **움직이는 미로 탈출**
+* C : [BOJ](https://www.acmicpc.net/problem/20667) **크롬**
+* D : [BOJ](https://www.acmicpc.net/problem/11722) **가장 긴 감소하는 부분 수열**
+
+*****************************************************************************
+
+### 2021/12/25~2021/12/31
 * A : [BOJ](https://www.acmicpc.net/problem/4963) **섬의 개수**
 * B : [BOJ](https://www.acmicpc.net/problem/3980) **선발 명단**
 * C : [BOJ](https://www.acmicpc.net/problem/14600) **샤워실 바닥 깔기 (Small)**
