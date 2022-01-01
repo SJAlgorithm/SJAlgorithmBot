@@ -80,7 +80,7 @@ public class SJAlgorithmBot {
                 calendar.get(Calendar.DAY_OF_MONTH));
         for(int i=0;i<problems.size();i++){
             Problem p=problems.get(i);
-            contents+=String.format("* %c : [BOJ](https://www.acmicpc.net/problem/%d) **%s**\n",'A'+i,p.getpNum(),p.getpTitle());
+            contents+=String.format("* %c : [BOJ_"+p.getpNum()+"](https://www.acmicpc.net/problem/%d) **%s**\n",'A'+i,p.getpNum(),p.getpTitle());
         }
 
         return oldContents.substring(0,instLength)+"\n"+contents+oldContents.substring(instLength);
