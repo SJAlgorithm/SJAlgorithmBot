@@ -1,8 +1,9 @@
 name: Auto Recommand
 
-schedule:
-  #Update Every Sunday 00:00
-  - cron: "0 0 * * 0"
+on:
+  schedule:
+    #Update Every Sunday 00:00 (UTC Time)
+    - cron: "13 8 * * 0"
 
 
 jobs:
