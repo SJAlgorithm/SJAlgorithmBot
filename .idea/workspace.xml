@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38683584-3fe4-42fb-8804-f814fa2f0c37" name="Changes" comment="Github Action Schedule update/Update On Every Sunday 00:00">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/SJAlgorithm.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/SJAlgorithm.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SJAlgorithmBot/src/main/java/SJAlgorithmBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/SJAlgorithmBot/src/main/java/SJAlgorithmBot.java" afterDir="false" />
-    </list>
+    <list default="true" id="38683584-3fe4-42fb-8804-f814fa2f0c37" name="Changes" comment="Github Action Schedule update/Update On Every Sunday 00:00" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +19,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testPjt" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -37,7 +33,7 @@
       <workItem from="1639986092160" duration="33000" />
       <workItem from="1640077589651" duration="1560000" />
       <workItem from="1640336848841" duration="23000" />
-      <workItem from="1640424616282" duration="184000" />
+      <workItem from="1640424616282" duration="1016000" />
     </task>
     <servers />
   </component>
