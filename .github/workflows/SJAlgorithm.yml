@@ -3,7 +3,7 @@ name: Auto Recommand
 on:
   schedule:
     #Update Every Sunday 03:00 (UTC Time)
-    - cron: "0 18 * * 0"
+    - cron: "11 18 * * 6"
 
 
 jobs:
