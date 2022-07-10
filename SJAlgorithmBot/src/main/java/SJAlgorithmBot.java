@@ -11,6 +11,7 @@ public class SJAlgorithmBot {
     static final String tonyUrl="https://api.github.com/repos/tony9402/baekjoon/contents/picked.md";
     static final String sjBotUrl="https://api.github.com/repos/SJAlgorithm/SJAlgorithmBot/contents/README.md";
     static final int instLength=22;//머릿말 길이
+    static final API api=API.getInstance();
 
     //문제 추첨
     public static Vector<Problem> generate(String oldContents,int count) throws IOException {
@@ -27,7 +28,7 @@ public class SJAlgorithmBot {
 
 
         //tony9402님의 추천 알고리즘 문제들이 있는 md파일 읽어오기
-        JSONObject tonyJson=API.callAPI(tonyUrl,"GET",null,null);
+        JSONObject tonyJson=api.callAPI(tonyUrl,"GET",null,null);
         String content=TextConversion.base64ToUtf8((String)tonyJson.get("content"));
         String[] contents=content.split("\n");
 
@@ -82,7 +83,6 @@ public class SJAlgorithmBot {
             Problem p=problems.get(i);
             contents+=String.format("* %c : [BOJ_"+p.getpNum()+"](https://www.acmicpc.net/problem/%d) **%s**\n",'A'+i,p.getpNum(),p.getpTitle());
         }
-
         return oldContents.substring(0,instLength)+"\n"+contents+oldContents.substring(instLength);
     }
 
@@ -92,7 +92,7 @@ public class SJAlgorithmBot {
         //API를 이용해서 SJAlgorithm의 README.md 읽어옴
         Map<String,String> h=new HashMap<>();
         h.put("Authorization","token "+token);
-        JSONObject myReadmeJson=API.callAPI(sjUrl,"GET",h,null);
+        JSONObject myReadmeJson=api.callAPI(sjUrl,"GET",h,null);
         String contents=TextConversion.base64ToUtf8((String)myReadmeJson.get("content"));
         String newContents=getNewContents(contents,4);
 
@@ -106,6 +106,6 @@ public class SJAlgorithmBot {
         body.put("content",TextConversion.utf8ToBase64(newContents));
         body.put("owner","SJAlgorithm");
 
-        JSONObject updateResponse=API.callAPI(sjUrl,"PUT",header,body);
+        JSONObject updateResponse=api.callAPI(sjUrl,"PUT",header,body);
     }
 }

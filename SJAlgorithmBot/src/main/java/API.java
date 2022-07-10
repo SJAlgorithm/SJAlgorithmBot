@@ -10,7 +10,12 @@ import java.net.URL;
 import java.util.Map;
 
 public class API {
-    public static JSONObject callAPI(String strUrl, String method, Map<String,String> header, Map<String,String> body) throws MalformedURLException {
+    private static API instance=new API();
+    private API(){}
+    public static API getInstance(){
+        return instance;
+    }
+    public JSONObject callAPI(String strUrl, String method, Map<String,String> header, Map<String,String> body) throws MalformedURLException {
         URL url;
         HttpURLConnection con;
         try {
