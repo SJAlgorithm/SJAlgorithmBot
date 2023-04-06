@@ -13,6 +13,7 @@ public class API {
     private static API instance=new API();
     private API(){}
     public static API getInstance(){
+        if(instance == null) instance = new API();
         return instance;
     }
     public JSONObject callAPI(String strUrl, String method, Map<String,String> header, Map<String,String> body) throws MalformedURLException {
